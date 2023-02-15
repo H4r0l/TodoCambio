@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+input{
+    font-family: 'Fredoka', sans-serif;
+}
+* {
+    font-family: 'Gaegu', cursive;
+}
+.line{
+    display: grid;
+    grid-template-rows: 5px;
+    grid-template-columns: 220px 50px;
+}
+

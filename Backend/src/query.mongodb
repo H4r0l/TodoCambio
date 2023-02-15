@@ -1,0 +1,3 @@
+use("TodoCambioTodoList");
+
+db.todos.find()

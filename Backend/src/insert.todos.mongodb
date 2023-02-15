@@ -1,0 +1,7 @@
+use("TodoCambioTodoList");
+
+db.todos.insertOne({
+        "title": "Test #4",
+        "completed":false
+
+})

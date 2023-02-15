@@ -17,7 +17,7 @@ useNewUrlParser:true };
 app.use(express.json());
 app.use(cors())
 
-mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@todocambiotodolist.mc9qxv9.mongodb.net/TodoCambioTodoList`, connectionOptions)
+mongoose.connect("mongodb+srv://Harol:1011200261@todocambiotodolist.mc9qxv9.mongodb.net/TodoCambioTodoList", connectionOptions)
     .then(() => console.log ("Connected successfully"))
     .catch ((err) => console.error(err));
 
